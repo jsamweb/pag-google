@@ -39,7 +39,7 @@ nav .nav-right-section a {
     
 }
 nav .nav-right-section .icon-menu{
-    background-image: url(https://lh3.googleusercontent.com/proxy/mh7IqhsVYQr0Yl_v8ERK02i2z9o7Cs7F8kSSJp3Q7BurKHIqJBD9ueEEy8yXs8WKe9px8eSNSUefyiw50IEQsInnU4iURfYhBlXdQmEiNGSiz1zpxI32Fbi5P1cB3q6ncBOS34yjLrAyWtMgXCo);
+    background-image: url(https://www.flaticon.es/svg/vstatic/svg/3603/3603178.svg?token=exp=1612472776~hmac=ce12a287d127d0883e0f4d459213f183);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -51,6 +51,8 @@ nav .nav-right-section .icon-menu{
     border-radius: 50%;
     margin-left: 1rem;
 }
+
+
 /* main */
 main{
     margin-top: 15rem;
@@ -110,9 +112,54 @@ main .main-buttons{
     margin: 0 auto;
     
 }
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
 main .main-buttons div{
     display: inline-block;
+    margin: 0 1rem;
 }
-button{
+main .main-buttons button{
+    width: 170px;
+    height: 36px;
+    background-color: #dadada;
+    border: 0;
+    font-size: 1.4rem;
+    color: rgb(61, 61, 61);
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+}
+main .main-buttons button:hover{
+    background-color: rgb(213, 226, 252);
+    border: solid 2px rgb(116, 165, 255) ;
+    font-weight: 600;
+    box-shadow: 0 1px 6px 0 #202020;
+    font-size: 1.3rem;
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+    margin: 1rem;
+    display: flex;
+    padding: 0;
     
+    
+}
+footer ul a{
+    padding: 0 1rem;
+}
+footer .footer-left{
+    justify-content: flex-start;
+}
+footer .footer-right{
+    justify-content: flex-end;
 }
